@@ -16,7 +16,8 @@
 }
 
 .contact-container>h3,
-.contact-container>p {
+.contact-container>p,
+.contact-image {
     position: relative;
     z-index: 2;
 }

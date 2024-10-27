@@ -1,0 +1,80 @@
+.project-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.project-card-container>img{
+    width: 240px;
+    transition: all 300ms ease-in-out;
+}
+
+.project-links>a{
+    transition: transform 300ms ease-in-out;
+}
+
+.project-description{
+    max-width: 80ch;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.project-description>h3{
+    font-size: var(--font-size-medium);
+}
+
+.project-card-container>img,
+.project-links>a,
+.project-description>h3,
+.project-description>p,
+.project-description>div:last-child>h3,
+.project-description>div:last-child>div{
+    position: relative;
+    z-index: 2;
+}
+
+.project-links{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.project-links>a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+
+.project-tech-icon{
+    font-size: 2rem;
+}
+
+.project-description>div:last-child{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.project-description>div:last-child>div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-card-container>img:hover
+{
+    transform: scale(1.1);
+}
+
+.project-links>a:hover{
+    transform: scale(1.4);
+}

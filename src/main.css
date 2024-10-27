@@ -1,0 +1,92 @@
+/* Google Fonts - Montserrat  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* || Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* || CSS Variables */
+:root {
+
+    /* Font  */
+    --font-family: "Montserrat", serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 900;
+    --font-optical-sizing: auto;
+
+    --font-size: 16px;
+    /* 1rem */
+    --font-size-medium: 24px;
+    /* 1.5rem */
+    --font-size-large: 32px;
+    /* 2rem */
+    --font-size-extralarge: 40px;
+    /* 2.5rem */
+
+    --line-height: 1.4;
+}
+
+/* CSS Variables for Light Theme */
+body.light {
+    /* Colors */
+    --primary-bg-color: white;
+    --secondary-bg-color: white;
+    --highlight-color: #F94D00;
+    --text-color: black;
+}
+
+/* CSS Variables for Dark Theme */
+body.dark {
+    /* Colors */
+    --primary-bg-color: #010B13;
+    --secondary-bg-color: #100C08;
+    --highlight-color: #F94D00;
+    --text-color: white;
+}
+
+/* Default styles for webpage */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+
+    cursor: none;
+    color: var(--text-color);
+}
+
+/* Common CSS Styles in differen components */
+.icon,
+.social-icon {
+    cursor: pointer;
+    font-size: var(--font-size-medium);
+    
+    /* For custom cursor - so that custom cursor will pass under the image */
+    position: relative;
+    z-index: 2;
+}
+
+
+.social-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social-icon-container>a{
+    display: contents;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.social-icon {
+    transition: transform 300ms ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.4);
+}

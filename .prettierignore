@@ -1,0 +1,14 @@
+# <!-- Ignore Build Folder -->
+build
+dist
+
+# <!-- Ignore Node.js modules -->
+node_modules
+
+# <!-- Ignore local environment files -->
+*.env
+.env
+.env*
+
+# <!-- Ignore version control directories -->
+.git

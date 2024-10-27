@@ -1,0 +1,30 @@
+.footer-container{
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
+
+    padding: 1rem 0rem 1rem 0rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+
+    box-shadow: 0 -2px 5px #F94D00;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+}
+
+.footer-container>a:last-child{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.back-to-top-icon{
+    font-size: var(--font-size-medium);
+}

@@ -89,6 +89,7 @@
 .home-content>.text-content-container>.resume-btn {
     background-color: var(--primary-bg-color);
     outline: none;
+    text-decoration: none;
 
     display: flex;
     align-items: center;
@@ -96,6 +97,7 @@
 
     color: var(--highlight-color);
     font-weight: var(--font-weight-bold);
+    font-size: 1rem;
     letter-spacing: 0.5px;
     padding: 0.5rem 1rem;
 

@@ -90,10 +90,15 @@ function Home() {
                         backend development.
                     </p>
 
-                    <button className="resume-btn">
+                    <a
+                        href="https://gs-gauravsingh.github.io/MyResume/GauravSinghResume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="resume-btn"
+                    >
                         <FaDownload className="icon" />
                         <span>Resume</span>
-                    </button>
+                    </a>
                 </div>
             </section>
 

@@ -5,7 +5,8 @@ import amazonCloneImg from "../assets/project-images/AmazonClone.png";
 import amazonUiCloneImg from "../assets/project-images/AmazonUIClone.png";
 import sortingVisualizerImg from "../assets/project-images/SortingVisualizer.png";
 import ticTacToeGameImg from "../assets/project-images/TicTacToeGame.png";
-import "../css/mediaQueries.css"
+import urlShortener from "../assets/project-images/URLShortner.png";
+import "../css/mediaQueries.css";
 
 function Projects() {
     return (
@@ -16,6 +17,21 @@ function Projects() {
             </div>
 
             <div>
+                {/* URL Shortener - MERN Stack Project */}
+                <ProjectCard
+                    title="URL Shortener"
+                    image={urlShortener}
+                    imageAltText="Amazon Clone Project Image"
+                    imageTitle="Amazon Clone"
+                    description="A full-featured URL shortener application built with the MERN stack, designed to simplify long URLs for easy sharing. It includes secure JWT authentication for managing user sessions and user account features such as login, logout, and registration. Each user operates in a private environment, where they can view and manage only their own generated short URLs, ensuring data privacy and security. The application also tracks the total clicks on each short URL, providing useful insights."
+                    techStack={["mongodb", "expressjs", "reactjs", "nodejs"]}
+                    githubLink="https://github.com/GS-GauravSingh/URLShortner"
+                    liveLink="https://github.com/GS-GauravSingh/URLShortner"
+                />
+
+                {/* Separation */}
+                <p className="separator"></p>
+
                 {/* Amazon Clone */}
                 <ProjectCard
                     title="Amazon Clone"

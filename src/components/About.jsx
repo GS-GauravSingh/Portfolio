@@ -7,10 +7,10 @@ function About() {
             <h3>About</h3>
             <article>
                 <p>
-                    I'm a skilled developer with a strong background in
-                    programming languages such as C and C++. My experience with
-                    these languages allows me to tackle complex problems
-                    efficiently. I've also solved over 500 Data Structures and
+                    I'm a skilled developer with a strong background in C++
+                    programming languages. My experience with
+                    C++ language allows me to tackle complex problems
+                    efficiently. I've also solved over 800 Data Structures and
                     Algorithm problems on LeetCode, enhancing my problem-solving
                     abilities and critical thinking, which enables me to develop
                     innovative solutions.

@@ -10,6 +10,8 @@
 .project-card-container>img{
     width: 240px;
     transition: all 300ms ease-in-out;
+
+    cursor: default;
 }
 
 .project-links>a{

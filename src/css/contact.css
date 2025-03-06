@@ -24,6 +24,8 @@
 
 .contact-image{
     width: 250px;
+
+    cursor: default;
 }
 
 .contact-form{

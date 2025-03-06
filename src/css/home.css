@@ -27,6 +27,8 @@
     /* For custom cursor - so that custom cursor will pass under the image */
     position: relative;
     z-index: 2;
+
+    cursor: default;
 }
 
 .home-content>.image-container>.theme-icon {

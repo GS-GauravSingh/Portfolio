@@ -21,12 +21,12 @@ function Projects() {
                 <ProjectCard
                     title="URL Shortener"
                     image={urlShortener}
-                    imageAltText="Amazon Clone Project Image"
-                    imageTitle="Amazon Clone"
-                    description="A full-featured URL shortener application built with the MERN stack, designed to simplify long URLs for easy sharing. It includes secure JWT authentication for managing user sessions and user account features such as login, logout, and registration. Each user operates in a private environment, where they can view and manage only their own generated short URLs, ensuring data privacy and security. The application also tracks the total clicks on each short URL, providing useful insights."
+                    imageAltText="URL Shortener Project Image"
+                    imageTitle="URL Shortener"
+                    description="A full-featured URL shortener application built with the MERN stack, designed to simplify long URLs for easy sharing. Integrated RESTful API for URL shortening, user management, and analytics. Optimized database queries to reduce latency by ~30%. It features secure JWT authentication with 2-step OTP email verification for security. Implemented a rate limiter to restrict users to 50 API requests per hour, preventing abuse and improving security. Each user operates in a private environment, where they can view and manage only their own generated short URLs, ensuring data privacy and security. The application also tracks the total clicks on each short URL, providing useful insights. The backend uses Mongoose ODM for defining and managing schemas, and is configured with CORS (Cross-Origin Resource Sharing) to enable secure API access. The frontend is styled with Tailwind CSS for a responsive design and uses Axios for efficient HTTP requests."
                     techStack={["mongodb", "expressjs", "reactjs", "nodejs"]}
-                    githubLink="https://github.com/GS-GauravSingh/URLShortner"
-                    liveLink="https://github.com/GS-GauravSingh/URLShortner"
+                    githubLink="https://github.com/GS-GauravSingh/URL_Shortener_Frontend"
+                    liveLink="https://url-shortener-frontend-v65a.onrender.com/"
                 />
 
                 {/* Separation */}

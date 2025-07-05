@@ -106,7 +106,7 @@ function ProjectCard({
 
                 <h3>{title}</h3>
 
-                <p>{description}</p>
+                <div dangerouslySetInnerHTML={{ __html: description }} />
 
                 <div>
                     <h3>Tech Stack:</h3>

@@ -7,32 +7,56 @@ function About() {
             <h3>About</h3>
             <article>
                 <p>
-                    I'm a skilled developer with a strong background in C++
-                    programming languages. My experience with
-                    C++ language allows me to tackle complex problems
-                    efficiently. I've also solved over 800 Data Structures and
-                    Algorithm problems on LeetCode, enhancing my problem-solving
-                    abilities and critical thinking, which enables me to develop
-                    innovative solutions.
+                    I'm a passionate <strong>full-stack developer</strong> with
+                    strong expertise in <strong>C++</strong> and{" "}
+                    <strong>JavaScript</strong>, having solved over{" "}
+                    <strong>800+</strong>{" "}
+                    <em>Data Structures and Algorithms</em> problems on{" "}
+                    <strong>LeetCode</strong>. This foundation has sharpened my{" "}
+                    <em>analytical thinking</em> and ability to craft{" "}
+                    <em>efficient solutions</em>.
                 </p>
 
                 <p>
-                    In web development, I&apos;m passionate about creating
-                    websites that look great and work flawlessly. Using HTML,
-                    CSS, and JavaScript, I bring designs to life with a focus on
-                    functionality and user experience. I&apos;m also well-versed
-                    in frameworks and libraries like Tailwind CSS, React, and
-                    Redux, which help me build responsive, scalable applications
-                    with ease. Recently, I expanded my skills with the MERN
-                    stack (MongoDB, Express.js, React, Node.js), enabling me to
-                    develop full-stack applications that are efficient, robust,
-                    and maintainable.
+                    In web development, I specialize in building{" "}
+                    <em>modern, responsive applications</em> using{" "}
+                    <strong>HTML</strong>, <strong>CSS</strong>,{" "}
+                    <strong>JavaScript</strong>, and frameworks like{" "}
+                    <strong>React</strong>, <strong>Redux Toolkit</strong>,{" "}
+                    <strong>Tailwind CSS</strong>, and <strong>Zustand</strong>.
+                    I'm also skilled in building{" "}
+                    <strong>scalable RESTful APIs</strong> using{" "}
+                    <strong>Node.js</strong> and <strong>Express.js</strong>,
+                    with database experience in <strong>PostgreSQL</strong>,{" "}
+                    <strong>MongoDB</strong>, and <strong>MySQL</strong>.
                 </p>
 
                 <p>
-                    I&apos;m eager to collaborate with a team where I can contribute
-                    my skills across front-end and full-stack development,
-                    pushing boundaries and achieving goals together.
+                    Currently, I'm working at <strong>GoTrust</strong> as a{" "}
+                    <strong>Junior Software Developer</strong>, contributing to
+                    backend development for modules like{" "}
+                    <strong>Data Mapping</strong> and{" "}
+                    <strong>Policy Management</strong>. I’ve optimized APIs,
+                    implemented <strong>secure authentication</strong>, and
+                    improved performance by <strong>refactoring</strong>{" "}
+                    critical code paths.
+                </p>
+
+                <p>
+                    I enjoy working on <strong>full-stack projects</strong> like{" "}
+                    <strong>real-time chat apps</strong> and{" "}
+                    <strong>URL shorteners</strong>, where I've used
+                    technologies like <strong>JWT</strong>,{" "}
+                    <strong>Google Auth</strong>, <strong>Zod</strong>,{" "}
+                    <strong>Sequelize</strong>, <strong>Mongoose</strong>,{" "}
+                    <strong>Socket.IO</strong>, and <strong>Cloudinary</strong>{" "}
+                    to deliver <em>robust, real-world solutions</em>.
+                </p>
+
+                <p>
+                    I'm eager to collaborate with <em>dynamic teams</em>, take
+                    on <em>technical challenges</em>, and contribute to building{" "}
+                    <strong>impactful digital products</strong>.
                 </p>
             </article>
         </section>

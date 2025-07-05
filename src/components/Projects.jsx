@@ -24,7 +24,17 @@ function Projects() {
                     image={talks}
                     imageAltText="Talks Project Image"
                     imageTitle="Talks - a real-time chat application built using the PERN stack"
-                    description="A real-time chat application built using the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It features user authentication, real-time messaging, and a responsive design. The application allows users to create accounts, join chat rooms, and send messages in real-time. The backend is built with Express.js and PostgreSQL, providing a robust API for user management and message storage. The frontend is developed with React.js, utilizing WebSockets for real-time communication."
+                    description="
+                        <p><strong>Talks</strong> is a full-stack real-time chat application built using the <strong>PERN stack</strong> (<strong>PostgreSQL</strong>, <strong>Express.js</strong>, <strong>React.js</strong>, <strong>Node.js</strong>), enabling <em>one-to-one</em> and <em>group messaging</em> with real-time communication via <strong>Socket.IO</strong>.</p>
+                        <p>Implemented <strong>JWT-based two-step email OTP verification</strong> and <strong>Google Authentication</strong> for secure login.</p>
+                        <p>Used <strong>Zod</strong> with <strong>React Hook Form</strong> for reliable form validation and better user input control.</p>
+                        <p>Managed global state with <strong>Zustand</strong> and applied <strong>DaisyUI</strong> for <em>multi-theme support</em> and consistent UI design.</p>
+                        <p>Built and validated <strong>RESTful APIs</strong> using <strong>Express.js</strong> and <strong>Joi</strong>, ensuring robust backend validation.</p>
+                        <p>Optimized <strong>PostgreSQL</strong> queries with <strong>Sequelize ORM</strong>, leveraging associations to reduce redundant DB calls and improve API response time by <strong>~30%</strong>.</p>
+                        <p>Designed efficient schema for scalable <strong>private</strong> and <strong>group chat</strong> functionality.</p>
+                        <p>Configured <strong>Multer</strong> and <strong>Cloudinary</strong> for secure and scalable image uploads.</p>
+                        <p>Frontend is built with <strong>React.js</strong>, offering a <em>modern, responsive UI</em> and real-time communication powered by <strong>Socket.IO</strong>.</p>
+                        "
                     techStack={["postgresql", "expressjs", "reactjs", "nodejs"]}
                     githubLink="https://github.com/GS-GAURAVSINGH/TALKS"
                     liveLink="https://talkschatapp.vercel.app/"
@@ -39,7 +49,15 @@ function Projects() {
                     image={urlShortener}
                     imageAltText="URL Shortener Project Image"
                     imageTitle="URL Shortener"
-                    description="A full-featured URL shortener application built with the MERN stack, designed to simplify long URLs for easy sharing. Integrated RESTful API for URL shortening, user management, and analytics. Optimized database queries to reduce latency by ~30%. It features secure JWT authentication with 2-step OTP email verification for security. Implemented a rate limiter to restrict users to 50 API requests per hour, preventing abuse and improving security. Each user operates in a private environment, where they can view and manage only their own generated short URLs, ensuring data privacy and security. The application also tracks the total clicks on each short URL, providing useful insights. The backend uses Mongoose ODM for defining and managing schemas, and is configured with CORS (Cross-Origin Resource Sharing) to enable secure API access. The frontend is styled with Tailwind CSS for a responsive design and uses Axios for efficient HTTP requests."
+                    description="
+                        <p><strong>URL Shortener</strong> is a full-stack application built using the <strong>MERN stack</strong> (<strong>MongoDB</strong>, <strong>Express.js</strong>, <strong>React.js</strong>, <strong>Node.js</strong>) that allows users to generate custom short links, track total clicks, and manage their URLs in a secure and efficient environment.</p>
+                        <p>Implemented <strong>JWT-based two-step email OTP verification</strong> to ensure secure user registration and login.</p>
+                        <p>Added a <strong>rate limiter</strong> to restrict users to <strong>50 API requests per hour</strong>, preventing abuse and enhancing overall API reliability.</p>
+                        <p>Designed and tested <strong>RESTful APIs</strong> using <strong>Postman</strong> and optimized database queries to reduce latency by <strong>~30%</strong>.</p>
+                        <p>The backend is powered by <strong>Mongoose ODM</strong> for schema modeling and validation, with <strong>CORS</strong> configured to enable secure cross-origin access.</p>
+                        <p>The frontend is styled using <strong>Tailwind CSS</strong> for a <em>clean and responsive UI</em> and integrates <strong>Axios</strong> for efficient API communication.</p>
+                        "
+
                     techStack={["mongodb", "expressjs", "reactjs", "nodejs"]}
                     githubLink="https://github.com/GS-GauravSingh/URL_Shortener_Frontend"
                     liveLink="https://url-shortener-frontend-v65a.onrender.com/"
@@ -54,7 +72,13 @@ function Projects() {
                     image={amazonCloneImg}
                     imageAltText="Amazon Clone Project Image"
                     imageTitle="Amazon Clone"
-                    description="The Amazon Clone Project is a full-stack web application that replicates Amazon's e-commerce platform, using React.js, Tailwind CSS, Redux, and Firebase. It features a responsive user interface, secure user authentication, and seamless state management for adding and removing products from the cart, providing a realistic online shopping experience."
+                    description="
+                        <p><strong>Amazon UI Clone</strong> is a full-stack e-commerce web application built using <strong>React.js</strong>, <strong>Tailwind CSS</strong>, <strong>Redux</strong>, and <strong>Firebase</strong>, replicating the core features of Amazon's platform.</p>
+                        <p>It features a <em>responsive user interface</em> with secure <strong>Firebase Authentication</strong> for user login and signup.</p>
+                        <p>Implemented seamless <strong>state management</strong> using <strong>Redux</strong> for adding and removing products from the cart in real-time.</p>
+                        <p>Provides a <em>realistic and smooth online shopping experience</em> with dynamic UI updates and clean product display components.</p>
+                        "
+
                     techStack={["tailwindcss", "reactjs", "redux"]}
                     githubLink="https://github.com/GS-GauravSingh/Full-Stack-Project-Amazon-Clone"
                     liveLink="https://clone-7840d.firebaseapp.com/"
@@ -69,7 +93,12 @@ function Projects() {
                     image={sortingVisualizerImg}
                     imageAltText="Sorting Visualizer Project Image"
                     imageTitle="Sorting Visualizer"
-                    description="The Sorting Visualizer Project is a web application designed to visually demonstrate the process of various sorting algorithms. Built with HTML, CSS, and JavaScript, it implements six different algorithms: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, and Heap Sort. This project helps users understand how these algorithms work by providing an interactive and engaging visualization of each sorting process."
+                    description="
+                        <p><strong>Sorting Visualizer</strong> is a web application built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to visually demonstrate how different sorting algorithms work in real-time.</p>
+                        <p>It implements six algorithms: <strong>Bubble Sort</strong>, <strong>Selection Sort</strong>, <strong>Insertion Sort</strong>, <strong>Merge Sort</strong>, <strong>Quick Sort</strong>, and <strong>Heap Sort</strong>.</p>
+                        <p>The project offers an <em>interactive and engaging interface</em> that helps users understand the internal working of each algorithm through dynamic visual feedback.</p>
+                        "
+
                     techStack={["html", "css", "javascript"]}
                     githubLink="https://github.com/GS-GauravSingh/Sorting-Visualizer"
                     liveLink="https://gs-gauravsingh.github.io/Sorting-Visualizer/"
@@ -84,7 +113,12 @@ function Projects() {
                     image={amazonUiCloneImg}
                     imageAltText="Amazon UI Clone Project Image"
                     imageTitle="Amazon UI Clone"
-                    description="Using HTML, CSS, and JavaScript, this project recreates the look and feel of the Amazon website. It includes key features like the navigation bar, product listings, and footer, aiming to provide a similar browsing experience as the original site."
+                    description="
+                        <p>This project recreates the look and feel of the Amazon website using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+                        <p>It features core UI components such as a <strong>navigation bar</strong>, <strong>product listings</strong>, and <strong>footer</strong>, delivering a familiar layout and design.</p>
+                        <p>The goal is to offer a <em>visually similar browsing experience</em> to the original Amazon platform, making it ideal for practicing frontend development and UI replication.</p>
+                        "
+
                     techStack={["html", "css", "javascript"]}
                     githubLink="https://github.com/GS-GauravSingh/Amazon-Clone"
                     liveLink="https://gs-gauravsingh.github.io/Amazon-Clone/"
@@ -99,7 +133,12 @@ function Projects() {
                     image={ticTacToeGameImg}
                     imageAltText="Tic Tac Toe Game Project Image"
                     imageTitle="Tic Tac Toe Game"
-                    description="A fun Tic Tac Toe game made with HTML, CSS, and JavaScript. This project shows my ability to create interactive web applications with a clean and responsive design. Play it on any device!"
+                    description="
+                        <p>A fun and interactive <strong>Tic Tac Toe</strong> game built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+                        <p>This project demonstrates my ability to build <em>responsive</em>, <em>interactive web applications</em> with clean design and smooth gameplay.</p>
+                        <p>Fully responsive and mobile-friendly — <em>play it on any device!</em></p>
+                        "
+
                     techStack={["html", "css", "javascript"]}
                     githubLink="https://github.com/GS-GauravSingh/Tic-Tac-Toe-Game/"
                     liveLink="https://gs-gauravsingh.github.io/Tic-Tac-Toe-Game/"

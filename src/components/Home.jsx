@@ -84,10 +84,10 @@ function Home() {
                     </div>
 
                     <p className="short-intro">
-                        👋 Hello, my name is Gaurav Singh. I am a full-stack
-                        MERN Developer dedicated to crafting dynamic and
-                        intuitive user experiences, skilled in both frontend and
-                        backend development.
+                        👋 Hello, I'm <strong>Gaurav Singh</strong> — a{" "}
+                        <strong>full-stack MERN developer</strong> skilled in
+                        building <em>scalable</em> web applications with clean
+                        code and great user experience.
                     </p>
 
                     <a

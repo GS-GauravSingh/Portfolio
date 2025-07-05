@@ -6,6 +6,7 @@ import amazonUiCloneImg from "../assets/project-images/AmazonUIClone.png";
 import sortingVisualizerImg from "../assets/project-images/SortingVisualizer.png";
 import ticTacToeGameImg from "../assets/project-images/TicTacToeGame.png";
 import urlShortener from "../assets/project-images/URLShortner.png";
+import talks from "../assets/project-images/Talks.png";
 import "../css/mediaQueries.css";
 
 function Projects() {
@@ -17,6 +18,21 @@ function Projects() {
             </div>
 
             <div>
+                {/* Talks - PERN Stack Project */}
+                <ProjectCard
+                    title="Talks"
+                    image={talks}
+                    imageAltText="Talks Project Image"
+                    imageTitle="Talks - a real-time chat application built using the PERN stack"
+                    description="A real-time chat application built using the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It features user authentication, real-time messaging, and a responsive design. The application allows users to create accounts, join chat rooms, and send messages in real-time. The backend is built with Express.js and PostgreSQL, providing a robust API for user management and message storage. The frontend is developed with React.js, utilizing WebSockets for real-time communication."
+                    techStack={["postgresql", "expressjs", "reactjs", "nodejs"]}
+                    githubLink="https://github.com/GS-GAURAVSINGH/TALKS"
+                    liveLink="https://talkschatapp.vercel.app/"
+                />
+
+                {/* Separation */}
+                <p className="separator"></p>
+
                 {/* URL Shortener - MERN Stack Project */}
                 <ProjectCard
                     title="URL Shortener"

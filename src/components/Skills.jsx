@@ -10,6 +10,8 @@ import { SiRedux } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";  
+import { SiMysql } from "react-icons/si";
 import { useThemeContext } from "../context/ThemeContext";
 
 function Skills() {
@@ -48,18 +50,27 @@ function Skills() {
                     <SiRedux className="grid-item-icon" />
                     <span className="grid-item-text" style={{color: `${theme === "light" ? "black" : "white"}`}}>Redux</span>
                 </div>
-                <div className="grid-item grid-item-8">
+                <div className="grid-item grid-item-7">
                     <SiMongodb className="grid-item-icon" />
                     <span className="grid-item-text" style={{color: `${theme === "light" ? "black" : "white"}`}}>MongoDB</span>
                 </div>
-                <div className="grid-item grid-item-7" style={{boxShadow: `${theme === "light" ? "0 5px 5px black" : "0 5px 5px white"}`}}>
+                <div className="grid-item grid-item-8">
+                    <BiLogoPostgresql className="grid-item-icon" />
+                    <span className="grid-item-text" style={{color: `${theme === "light" ? "black" : "white"}`}}>PostgreSQL</span>
+                </div>
+                <div className="grid-item grid-item-9">
+                    <SiMysql className="grid-item-icon" />
+                    <span className="grid-item-text" style={{color: `${theme === "light" ? "black" : "white"}`}}>MySQL</span>
+                </div>
+                <div className="grid-item grid-item-10" style={{boxShadow: `${theme === "light" ? "0 5px 5px black" : "0 5px 5px white"}`}}>
                     <SiExpress className="grid-item-icon" style={{color: `${theme === "light" ? "black" : "white"}`}} />
                     <span className="grid-item-text" style={{color: `${theme === "light" ? "black" : "white"}`}}>Express.JS</span>
                 </div>
-                <div className="grid-item grid-item-9">
+                <div className="grid-item grid-item-11">
                     <FaNodeJs className="grid-item-icon" />
                     <span className="grid-item-text" style={{color: `${theme === "light" ? "black" : "white"}`}}>Node.JS</span>
                 </div>
+
             </div>
         </section>
     );

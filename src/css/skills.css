@@ -77,13 +77,23 @@
     box-shadow: 0 5px 5px #7248B6;
 }
 .grid-item-7{
-}
-
-.grid-item-8{
     color: #00ED64;
     box-shadow: 0 5px 5px #00ED64;
 }
+
+.grid-item-8{
+    color: #689DC9;
+    box-shadow: 0 5px 5px #689DC9;
+}
 .grid-item-9{
+    color: #3E6E93;
+    box-shadow: 0 5px 5px #3E6E93;
+}
+.grid-item-10{
+    color: #00ED64;
+    box-shadow: 0 5px 5px #00ED64;
+}
+.grid-item-11{
     color: #58A846;
     box-shadow: 0 5px 5px #58A846;
 }

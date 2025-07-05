@@ -13,6 +13,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { useThemeContext } from "../context/ThemeContext";
 
 function ProjectCard({
@@ -81,6 +82,12 @@ function ProjectCard({
                 className="project-tech-icon"
             />
         ),
+        postgresql: (
+            <BiLogoPostgresql
+                style={{ color: "#31648C" }}
+                className="project-tech-icon"
+            />
+        )
     };
 
     return (
